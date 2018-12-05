@@ -8,7 +8,7 @@
 import Foundation
 import PerfectHTTP
 
-public func GFResponse<T: Codable>(_ response: HTTPResponse, body: T?) {
+public func GFResponse<T: Encodable>(_ response: HTTPResponse, body: T?) {
 
     // Respond with a simple message.
     response.setHeader(.contentType, value: "application/json")
