@@ -63,7 +63,7 @@ fastlane/report.xml
 fastlane/screenshots
 
 Packages/
-PerfectTemplate.xcodeproj
+LocalPerfectShop.xcodeproj
 Tests/
 webroot/
 Package.pins
